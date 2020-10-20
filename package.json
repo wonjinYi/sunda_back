@@ -1,0 +1,37 @@
+{
+  "name": "sunda_back",
+  "version": "0.0.1",
+  "description": "sunda frontend project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wonjinYi/sunda_back.git"
+  },
+  "author": "wonjin yi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wonjinYi/sunda_back/issues"
+  },
+  "homepage": "https://github.com/wonjinYi/sunda_back#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "mysql2": "^2.2.5",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "sequelize": "^6.3.5",
+    "sequelize-cli": "^6.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
